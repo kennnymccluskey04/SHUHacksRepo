@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if (username === "user") {
+    if (username === "user'--") {
         // Redirect to a separate login page
         window.location.href = "homepage.html";
     } else {

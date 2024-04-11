@@ -110,3 +110,18 @@ a{
  margin: 20px 0;
  font-size: 12px;
 }
+
+.sql-box {
+    background: #FFF;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.sql-box p {
+    font-family: monospace;
+    font-size: 14px;
+    margin: 0;
+    white-space: pre-wrap; /* Preserve line breaks */
+}
